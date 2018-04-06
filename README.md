@@ -1,4 +1,4 @@
-# Apache-MariaDB-PHP
+# Nginx-MariaDB-PHP
 
 Use docker to run local server without install LAMPP.
 
