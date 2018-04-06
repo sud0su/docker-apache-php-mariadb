@@ -4,7 +4,7 @@ Use docker to run local server without install LAMPP.
 
 ## Setup
 
-- Install `docker`
+- Install `docker`.
 
 #### Run docker
 
@@ -17,7 +17,7 @@ sud0su@oprek$ docker-compose up -d
 ```console
 sud0su@oprek$ docker ps
 ```
-
+ 
 ##### Running MySQL shell command line
 
 ```console
