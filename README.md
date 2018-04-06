@@ -6,6 +6,8 @@ Use docker to run local server without install LAMPP.
 
 - Install `docker`.
 
+- Create folder www for root project.
+
 ### Run docker
 
 ```console
