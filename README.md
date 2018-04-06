@@ -1,6 +1,6 @@
 # Apache-MariaDB-PHP
 
-Use docker to run local server without install any depedencies.
+Use docker to run local server without install LAMPP.
 
 ## Setup
 
