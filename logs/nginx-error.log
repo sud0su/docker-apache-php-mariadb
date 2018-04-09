@@ -1,0 +1,22 @@
+2018/04/09 02:23:43 [error] 6#0: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /usr/share/nginx/html/fuel/codeigniter/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /usr/share/nginx/html/fuel/codeigniter/libraries/Session/Session.php(143): session_start()
+#2 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(791): CI_Session->__construct()
+#3 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(684): Fuel_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(538): Fuel_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(592): Fuel_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(198): Fuel_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /usr/share/n...
+PHP message: PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /usr/share/nginx/html/fuel/codeigniter/libraries/Session/Session.php on line 143" while reading response header from upstream, client: 172.17.0.1, server: 172.17.0.1, request: "GET /fuel HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2018/04/09 02:23:45 [error] 6#0: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /usr/share/nginx/html/fuel/codeigniter/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /usr/share/nginx/html/fuel/codeigniter/libraries/Session/Session.php(143): session_start()
+#2 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(791): CI_Session->__construct()
+#3 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(684): Fuel_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(538): Fuel_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(592): Fuel_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /usr/share/nginx/html/fuel/modules/fuel/core/Loader.php(198): Fuel_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /usr/share/n...
+PHP message: PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /usr/share/nginx/html/fuel/codeigniter/libraries/Session/Session.php on line 143" while reading response header from upstream, client: 172.17.0.1, server: 172.17.0.1, request: "GET /fuel HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "localhost", referrer: "http://localhost/"
